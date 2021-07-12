@@ -13,8 +13,8 @@ public class ArrayEquals {
         Object[] array2 = {inarray2};  // array2 also have only one element
         //comparing two arrays using equals() method
         if (Arrays.deepEquals(array1, array2))
-            System.out.println("Arrays are equal.");
+            System.out.println("Arrays are Equal.");
         else
-            System.out.println("Arrays are not equal.");
+            System.out.println("Arrays are not Equal.");
     }
 }
